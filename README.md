@@ -53,7 +53,7 @@
 
  5. 使用接口，根据刚刚创建的`url：testapi` 生成一个链接  http://localhost:3000/getjson/testapi
 可以在控制台调用一下这个`url`可以看出就是我们刚刚存储的`json`数据。
-   ![image](https://github.com/zk923852367/node-server-api/tree/master/jsonServer/public/images/ui.jpg)
+   ![image](https://github.com/zk923852367/node-server-api/blob/master/jsonServer/public/images/ui.png)
  6. 搜索功能：在搜索框输入接口中文描述名称或者`apiurl`的名称即可。
 
  7. 二次编辑功能：创建完成接口之后，首页或者搜索结果会显示二次编辑入口，点击就会显示上次保存的数据和格式
