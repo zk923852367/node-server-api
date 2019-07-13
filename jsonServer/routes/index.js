@@ -35,7 +35,6 @@ function saveName(obj){
 				}
 				resolve(fs.writeFileSync(jsonName,JSON.stringify({"warn":"存放所有的关系表，建议不要手动修改","dataList":new_arr})))
 			}).catch(function(response){
-				console.log('reset')
 				resolve(fs.writeFileSync(jsonName,JSON.stringify({"warn":"存放所有的关系表，建议不要手动修改","dataList":[{"name":obj.name,"url":obj.url}]})))
 			})
 	})
@@ -116,7 +115,6 @@ module.exports = function(app){
 		url = str + '.' + query
 	  }
 	  
-	  console.log(url, query)
 	  var urlName = req.body.name.replace(/\s/g,"");
 		  
 	  var jsonUrl = urlToName(url.replace(/\s/g,""));
@@ -150,7 +148,6 @@ module.exports = function(app){
 			//var query = req.body.url.split('?')[1].split('=')[1]
 			//url = str + '.' + query
 		  //}
-		  console.log(req)
 	      var jsonUrl = urlToName(req.params[0]);
 		  var jsonName = './public/jsonfile/'+jsonUrl.fileName+'.json';
 		  console.log(jsonUrl, 'URL')
@@ -237,10 +234,8 @@ module.exports = function(app){
 		// saveName({name:jsonName,url:jsonUrl.url,del:true})
 		saveName({name:jsonName,url:jsonUrl.url,multi:jsonUrl.multi,del:true})
 		del.then(function(response){
-			console.log('ok')
 			res.json({ code: 0,success:true})
 		}).catch(function(e){
-			console.log(e)
 			res.json({ code: 1,success:false,info:e})
 		})
 	})
