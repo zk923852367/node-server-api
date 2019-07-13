@@ -1,0 +1,1 @@
+{"name":"省份","url":"select/province","apiInfo":"","detail":"{\n  \"code\": 200,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"label\": \"湖北\",\n      \"value\": \"hubei\"\n    },\n    {\n      \"label\": \"湖南\",\n      \"value\": \"hunan\"\n    },\n    {\n      \"label\": \"广东\",\n      \"value\": \"guangdong\"\n    }\n  ]\n}"}

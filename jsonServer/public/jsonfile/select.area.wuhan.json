@@ -1,0 +1,1 @@
+{"name":"查询武汉市","url":"select/area?query=wuhan","apiInfo":"","detail":"{\n\t\"code\": 200,\n\t\"message\": \"操作成功\",\n\t\"data\": [{\n\t\t\t\"label\": \"江岸区\",\n\t\t\t\"value\": \"jiangan\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"武昌区\",\n\t\t\t\"value\": \"wuchang\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"洪山区\",\n\t\t\t\"value\": \"hongshan\"\n\t\t}\n\t]\n}"}

@@ -1,0 +1,1 @@
+{"name":"查询深圳市","url":"select/area?query=shenzheng","apiInfo":"","detail":"{\n\t\"code\": 200,\n\t\"message\": \"操作成功\",\n\t\"data\": [{\n\t\t\t\"label\": \"罗湖区\",\n\t\t\t\"value\": \"luohu\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"南山区\",\n\t\t\t\"value\": \"nanshan\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"宝安区\",\n\t\t\t\"value\": \"baoan\"\n\t\t}\n\t]\n}"}

@@ -1,0 +1,1 @@
+{"name":"查询黄石","url":"select/area?query=huangshi","apiInfo":"","detail":"{\n\t\"code\": 200,\n\t\"message\": \"操作成功\",\n\t\"data\": [{\n\t\t\t\"label\": \"黄石港区\",\n\t\t\t\"value\": \"gangqu\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"下陆区\",\n\t\t\t\"value\": \"xialu\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"大冶市\",\n\t\t\t\"value\": \"daye\"\n\t\t}\n\t]\n}"}

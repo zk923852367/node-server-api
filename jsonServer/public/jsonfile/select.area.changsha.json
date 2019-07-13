@@ -1,0 +1,1 @@
+{"name":"查询长沙区","url":"select/area?query=changsha","apiInfo":"","detail":"{\n\t\"code\": 200,\n\t\"message\": \"操作成功\",\n\t\"data\": [{\n\t\t\t\"label\": \"芙蓉区\",\n\t\t\t\"value\": \"furong\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"长沙县\",\n\t\t\t\"value\": \"changsha\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"浏阳市\",\n\t\t\t\"value\": \"liuyang\"\n\t\t}\n\t]\n}"}

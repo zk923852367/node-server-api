@@ -1,0 +1,1 @@
+{"name":"查询广东省","url":"select/city?query=guangdong","apiInfo":"","detail":"{\n\t\"code\": 200,\n\t\"message\": \"操作成功\",\n\t\"data\": [{\n\t\t\t\"label\": \"广州\",\n\t\t\t\"value\": \"guangzhou\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"深圳\",\n\t\t\t\"value\": \"shenzheng\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"珠海\",\n\t\t\t\"value\": \"zhuhai\"\n\t\t}\n\t]\n}"}
